@@ -1,6 +1,11 @@
 ## Hi there 👋
 ### ⏱ Coding Stats (WakaTime)
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 <!--

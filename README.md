@@ -14,7 +14,12 @@ Java module   0 secs          ░░░░░░░░░░░░░░░░�
 
 <!--END_SECTION:waka-->
 
-<!--
+## 📊 Developer Analytics (Powered by WakaTime)
+
+[Click here to view coding stats →](./WAKA_STATS.md)
+
+
+
 **K-Yogeshwaran/K-Yogeshwaran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
@@ -27,4 +32,4 @@ Here are some ideas to get you started:
 - 📫 How to reach me: ...
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
--->
+

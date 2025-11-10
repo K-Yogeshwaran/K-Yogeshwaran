@@ -1,35 +1,29 @@
 ## Hi there 👋
+
 ### ⏱ Coding Stats (WakaTime)
-<!--START_SECTION:waka-->
 
-```txt
-From: 02 November 2025 - To: 09 November 2025
+<!--START_WAKATIME-->
+Loading stats...
+<!--END_WAKATIME-->
 
-Python        13 mins         █████████████████▒░░░░░░░   68.91 %
-Java          6 mins          ███████▓░░░░░░░░░░░░░░░░░   30.80 %
-XML           0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.27 %
-Properties    0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.02 %
-Java module   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.00 %
-```
-
-<!--END_SECTION:waka-->
-
-## 📊 Developer Analytics (Powered by WakaTime)
-
-[Click here to view coding stats →](./WAKA_STATS.md)
-
-
+---
 
 **K-Yogeshwaran/K-Yogeshwaran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-Here are some ideas to get you started:
+### About Me
+- 🔭 I’m currently working on: IntelliFarm / WildTrack AI
+- 🌱 I’m currently learning: AI, ML, Deep Learning, Android & Web App Development
+- 👯 I’m looking to collaborate on: AI + IoT based real world impactful projects
+- 💬 Ask me about: Java, Python, Flutter, Firebase, AI/ML
+- 📫 How to reach me: (add your email or socials here)
+- ⚡ Fun fact: I love turning ideas into real-working prototypes
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
+---
 
+### GitHub Stats
+
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=default)
+
+### Top Languages
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=default)

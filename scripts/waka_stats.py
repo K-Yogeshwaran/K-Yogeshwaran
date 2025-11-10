@@ -3,10 +3,9 @@ import os
 import re
 
 API_KEY = os.environ.get("WAKATIME_API_KEY")
-headers = {"Authorization": f"Basic {API_KEY}"}
 
 def fetch(url):
-    return requests.get(url, headers=headers).json()["data"]
+    return requests.get(url, params={"api_key": API_KEY}).json()["data"]
 
 today = fetch("https://wakatime.com/api/v1/users/current/stats/today")
 week = fetch("https://wakatime.com/api/v1/users/current/stats/last_7_days")
@@ -19,18 +18,18 @@ def block(title, items):
 
 content = (
     "## ⏱ Today’s WakaTime Stats\n\n"
-    + block("Languages", today["languages"])
-    + block("Editors", today["editors"])
-    + block("Operating Systems", today["operating_systems"])
-    + block("Projects", today["projects"])
-    + block("Machines", today["machines"])
+    + block("Languages", today.get("languages", []))
+    + block("Editors", today.get("editors", []))
+    + block("Operating Systems", today.get("operating_systems", []))
+    + block("Projects", today.get("projects", []))
+    + block("Machines", today.get("machines", []))
     + "\n---\n\n"
     + "## ⏳ Last 7 Days WakaTime Stats\n\n"
-    + block("Languages", week["languages"])
-    + block("Editors", week["editors"])
-    + block("Operating Systems", week["operating_systems"])
-    + block("Projects", week["projects"])
-    + block("Machines", week["machines"])
+    + block("Languages", week.get("languages", []))
+    + block("Editors", week.get("editors", []))
+    + block("Operating Systems", week.get("operating_systems", []))
+    + block("Projects", week.get("projects", []))
+    + block("Machines", week.get("machines", []))
 )
 
 with open("README.md", "r", encoding="utf-8") as f:

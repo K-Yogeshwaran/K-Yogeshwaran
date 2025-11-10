@@ -3,7 +3,26 @@
 ### ⏱ Coding Stats (WakaTime)
 
 <!--START_WAKATIME-->
-Loading stats...
+### Languages
+- **Python**: 13 mins
+- **Java**: 6 mins
+- **XML**: 0 secs
+- **Properties**: 0 secs
+- **Java module**: 0 secs
+
+### Editors
+- **VS Code**: 13 mins
+- **IntelliJ IDEA**: 6 mins
+
+### Operating Systems
+- **Windows**: 19 mins
+
+### Projects
+- **Practice repository**: 19 mins
+
+### Machines
+- **Yogesh-PC**: 19 mins
+
 <!--END_WAKATIME-->
 
 ---

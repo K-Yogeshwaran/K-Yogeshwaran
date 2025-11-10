@@ -2,7 +2,7 @@ name: WakaTime Update
 
 on:
   schedule:
-    - cron: '0 */4 * * *' # Updates every 12 hours
+    - cron: '0 */4 * * *'  # Updates every 4 hours
   workflow_dispatch:
 
 permissions:
@@ -11,9 +11,27 @@ permissions:
 jobs:
   update-readme:
     runs-on: ubuntu-latest
+
     steps:
-      - uses: athul/waka-readme@master
+      - uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
         with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Generate WakaTime Dashboard Stats
+        env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-          TIME_RANGE: today
-          SHOW_TITLE: true
+        run: python scripts/waka_stats.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions"
+          git config --global user.email "github-actions@github.com"
+          git add WAKA_STATS.md
+          git commit -m "Update WakaTime Stats" || echo "No update"
+          git push

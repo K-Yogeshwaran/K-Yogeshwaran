@@ -2,7 +2,7 @@ name: WakaTime Update
 
 on:
   schedule:
-    - cron: '0 */4 * * *'  # Updates every 4 hours
+    - cron: "0 */4 * * *"  # every 4 hours
   workflow_dispatch:
 
 permissions:
@@ -23,15 +23,15 @@ jobs:
       - name: Install dependencies
         run: pip install requests
 
-      - name: Generate WakaTime Dashboard Stats
+      - name: Update README with WakaTime Stats
         env:
           WAKATIME_API_KEY: ${{ secrets.WAKATIME_API_KEY }}
-        run: python scripts/waka_stats.py
+        run: python scripts/waka_stats.py   # This script now edits README.md
 
       - name: Commit and Push changes
         run: |
           git config --global user.name "github-actions"
           git config --global user.email "github-actions@github.com"
-          git add WAKA_STATS.md
-          git commit -m "Update WakaTime Stats" || echo "No update"
+          git add README.md
+          git commit -m "Updated WakaTime stats" || echo "No changes"
           git push

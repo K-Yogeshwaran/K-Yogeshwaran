@@ -1,64 +1,39 @@
+# 👨‍💻 Yogeshwaran K
+**AI/ML Developer | Full-Stack Enthusiast | Coimbatore, India**
 
-### ⏱ Today's Activity: 0 secs
-
-_No coding activity tracked yet for today._
-
----
-
-### ⏳ Last 7 Days
-#### Languages
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| Python | 4 hrs 7 mins | `███████░░░` 74.14% |
-| Java | 38 mins | `█░░░░░░░░░` 11.49% |
-| Text | 32 mins | `░░░░░░░░░░` 9.59% |
-| XML | 11 mins | `░░░░░░░░░░` 3.48% |
-| Docker | 1 min | `░░░░░░░░░░` 0.46% |
-
-#### Editors
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| VS Code | 4 hrs 44 mins | `████████░░` 85.13% |
-| IntelliJ IDEA | 49 mins | `█░░░░░░░░░` 14.87% |
-
-#### Projects
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.26% |
-| Air Quality Prediction Project | 1 hr 24 mins | `██░░░░░░░░` 25.19% |
-| yolov5 | 45 mins | `█░░░░░░░░░` 13.53% |
-| FirstProject | 26 mins | `░░░░░░░░░░` 7.99% |
-| Java Repository | 20 mins | `░░░░░░░░░░` 6.26% |
-
-
-### ⏱ Today's Activity: 0 secs
-
-_No coding activity tracked yet for today._
+<p align="left">
+  <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+  <img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
+</p>
 
 ---
 
-### ⏳ Last 7 Days
-#### Languages
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| Python | 4 hrs 7 mins | `███████░░░` 74.14% |
-| Java | 38 mins | `█░░░░░░░░░` 11.49% |
-| Text | 32 mins | `░░░░░░░░░░` 9.59% |
-| XML | 11 mins | `░░░░░░░░░░` 3.48% |
-| Docker | 1 min | `░░░░░░░░░░` 0.46% |
+### 🚀 About Me
+I am a passionate developer based in **Coimbatore, Tamil Nadu**, specializing in bridging the gap between Artificial Intelligence and scalable web applications.
 
-#### Editors
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| VS Code | 4 hrs 44 mins | `████████░░` 85.13% |
-| IntelliJ IDEA | 49 mins | `█░░░░░░░░░` 14.87% |
+* 🔭 **Active Development**: Currently refining an **Air Quality Prediction Project** using feature engineering and outlier detection to improve model accuracy.
+* 🌱 **Deep Learning**: Exploring Neural Networks and AI-driven automation for real-world impact.
+* 💼 **Key Build**: Architected **Study Sync**, a real-time collaborative platform using **Spring Boot**, **WebSockets**, and **React**.
+* 🏆 **Hackathons**: Recently participated in **Devtrails 2026** by Guidewire, focusing on rapid problem-solving and innovative prototyping.
+* 🧩 **Interests**: Competitive programming (LeetCode/Codeforces) and mastering Data Structures & Algorithms.
 
-#### Projects
-| Item | Time | Progress |
-| :--- | :--- | :--- |
-| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.26% |
-| Air Quality Prediction Project | 1 hr 24 mins | `██░░░░░░░░` 25.19% |
-| yolov5 | 45 mins | `█░░░░░░░░░` 13.53% |
-| FirstProject | 26 mins | `░░░░░░░░░░` 7.99% |
-| Java Repository | 20 mins | `░░░░░░░░░░` 6.26% |
+---
 
+### 📊 Coding Dashboard
+---
+
+### 📈 GitHub Insights
+<p align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=radical" />
+</p>
+
+---
+
+### 📫 Let's Connect
+- 🔗 **LinkedIn**: [Your LinkedIn Profile Link]
+- 📧 **Email**: [Your Email Address]
+- 📍 **Location**: Coimbatore, India

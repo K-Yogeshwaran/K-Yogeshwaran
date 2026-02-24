@@ -1,48 +1,68 @@
 import requests
 import os
 import re
+import sys
 
 API_KEY = os.environ.get("WAKATIME_API_KEY")
 
 def fetch(url):
-    return requests.get(url, params={"api_key": API_KEY}).json()["data"]
+    try:
+        response = requests.get(url, params={"api_key": API_KEY}, timeout=10)
+        response.raise_for_status() # Check for HTTP errors
+        data = response.json()
+        return data.get("data", {})
+    except Exception as e:
+        print(f"Error fetching data from {url}: {e}")
+        return {}
 
+# Fetching both Today and Last 7 Days
 today = fetch("https://wakatime.com/api/v1/users/current/stats/today")
 week = fetch("https://wakatime.com/api/v1/users/current/stats/last_7_days")
 
-# Add this before the file write to debug in the Action logs
-print(f"Generated content length: {len(content)}")
+# If 'week' is empty, the API key might be wrong or WakaTime is down
+if not week:
+    print("Could not retrieve weekly stats. Check your API Key.")
+    sys.exit(1)
 
 def block(title, items):
+    if not items or len(items) == 0:
+        return f"### {title}\n- No activity recorded\n\n"
     out = f"### {title}\n"
-    for item in items:
+    for item in items[:5]: # Top 5
         out += f"- **{item['name']}**: {item['text']}\n"
     return out + "\n"
 
-content = (
-    "## ⏱ Today’s WakaTime Stats\n\n"
-    + block("Languages", today.get("languages", []))
-    + block("Editors", today.get("editors", []))
-    + block("Operating Systems", today.get("operating_systems", []))
-    + block("Projects", today.get("projects", []))
-    + block("Machines", today.get("machines", []))
-    + "\n---\n\n"
-    + "## ⏳ Last 7 Days WakaTime Stats\n\n"
-    + block("Languages", week.get("languages", []))
-    + block("Editors", week.get("editors", []))
-    + block("Operating Systems", week.get("operating_systems", []))
-    + block("Projects", week.get("projects", []))
-    + block("Machines", week.get("machines", []))
-)
+# Prepare the markdown content
+today_total = today.get("human_readable_total", "0 secs")
+content = f"## ⏱ Today's Activity: {today_total}\n\n"
 
-with open("README.md", "r", encoding="utf-8") as f:
-    readme = f.read()
+if today.get("total_seconds", 0) > 0:
+    content += block("Languages", today.get("languages", []))
+    content += block("Editors", today.get("editors", []))
+else:
+    content += "_No coding activity tracked yet for today._\n\n"
 
-new_readme = re.sub(
-    r"<!--START_WAKATIME-->[\s\S]*<!--END_WAKATIME-->",
-    f"<!--START_WAKATIME-->\n{content}<!--END_WAKATIME-->",
-    readme,
-)
+content += "---\n\n## ⏳ Last 7 Days Stats\n\n"
+content += block("Languages", week.get("languages", []))
+content += block("Editors", week.get("editors", []))
+content += block("Projects", week.get("projects", []))
 
-with open("README.md", "w", encoding="utf-8") as f:
-    f.write(new_readme)
+# Update the README
+try:
+    with open("README.md", "r", encoding="utf-8") as f:
+        readme = f.read()
+
+    pattern = r"[\s\S]*"
+    replacement = f"\n{content}"
+
+    if re.search(pattern, readme):
+        new_readme = re.sub(pattern, replacement, readme)
+        with open("README.md", "w", encoding="utf-8") as f:
+            f.write(new_readme)
+        print("README.md updated locally.")
+    else:
+        print("Could not find markers in README.md")
+        sys.exit(1)
+except Exception as e:
+    print(f"File error: {e}")
+    sys.exit(1)

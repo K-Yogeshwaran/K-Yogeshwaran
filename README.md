@@ -1,48 +1,54 @@
-## Hi there 👋
 
-### ⏱ Coding Stats (WakaTime)
+## ⏱ Today's Activity: 0 secs
 
-<!--START_WAKATIME-->
+_No coding activity tracked yet for today._
+
+---
+
+## ⏳ Last 7 Days Stats
+
 ### Languages
-- **Python**: 13 mins
-- **Java**: 6 mins
-- **XML**: 0 secs
-- **Properties**: 0 secs
-- **Java module**: 0 secs
+- **Python**: 4 hrs 7 mins
+- **Java**: 38 mins
+- **Text**: 32 mins
+- **XML**: 11 mins
+- **Docker**: 1 min
 
 ### Editors
-- **VS Code**: 13 mins
-- **IntelliJ IDEA**: 6 mins
-
-### Operating Systems
-- **Windows**: 19 mins
+- **VS Code**: 4 hrs 44 mins
+- **IntelliJ IDEA**: 49 mins
 
 ### Projects
-- **Practice repository**: 19 mins
+- **Market Price Prediction**: 2 hrs 34 mins
+- **Air Quality Prediction Project**: 1 hr 24 mins
+- **yolov5**: 45 mins
+- **FirstProject**: 26 mins
+- **Java Repository**: 20 mins
 
-### Machines
-- **Yogesh-PC**: 19 mins
 
-<!--END_WAKATIME-->
+## ⏱ Today's Activity: 0 secs
 
----
-
-**K-Yogeshwaran/K-Yogeshwaran** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-### About Me
-- 🔭 I’m currently working on: IntelliFarm / WildTrack AI
-- 🌱 I’m currently learning: AI, ML, Deep Learning, Android & Web App Development
-- 👯 I’m looking to collaborate on: AI + IoT based real world impactful projects
-- 💬 Ask me about: Java, Python, Flutter, Firebase, AI/ML
-- 📫 How to reach me: (add your email or socials here)
-- ⚡ Fun fact: I love turning ideas into real-working prototypes
+_No coding activity tracked yet for today._
 
 ---
 
-### GitHub Stats
+## ⏳ Last 7 Days Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=default)
+### Languages
+- **Python**: 4 hrs 7 mins
+- **Java**: 38 mins
+- **Text**: 32 mins
+- **XML**: 11 mins
+- **Docker**: 1 min
 
-### Top Languages
+### Editors
+- **VS Code**: 4 hrs 44 mins
+- **IntelliJ IDEA**: 49 mins
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=default)
+### Projects
+- **Market Price Prediction**: 2 hrs 34 mins
+- **Air Quality Prediction Project**: 1 hr 24 mins
+- **yolov5**: 45 mins
+- **FirstProject**: 26 mins
+- **Java Repository**: 20 mins
+

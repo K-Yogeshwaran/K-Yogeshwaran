@@ -32,29 +32,32 @@ all_time = fetch("https://wakatime.com/api/v1/users/current/stats/all_time")
 
 content = ""
 
-# 1. Hide Today if 0 secs
+# Only show Today if you've actually coded
 if today.get("total_seconds", 0) > 0:
     content += f"### ⏱ Today's Activity: {today.get('human_readable_total')}\n"
     content += block("Languages", today.get("languages", []))
     content += "---\n"
 
-# 2. Last 7 Days
 content += "### ⏳ Last 7 Days\n"
 content += block("Languages", week.get("languages", []))
 content += block("Projects", week.get("projects", []))
 content += "---\n"
 
-# 3. All Time Total
 if all_time:
     content += f"### 🌍 Lifetime Coding: {all_time.get('human_readable_total')}\n"
     content += block("Top Languages", all_time.get("languages", []))
 
+# The Surgical Update
 with open("README.md", "r", encoding="utf-8") as f:
     readme = f.read()
 
+# This regex finds the space between your markers
 pattern = r"[\s\S]*"
 replacement = f"\n{content}"
 
 if re.search(pattern, readme):
     with open("README.md", "w", encoding="utf-8") as f:
         f.write(re.sub(pattern, replacement, readme))
+    print("Stats updated without touching your intro!")
+else:
+    print("Error: Could not find markers. Make sure they are in your README.")

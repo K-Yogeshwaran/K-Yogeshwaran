@@ -11,7 +11,7 @@ def fetch(url):
         response.raise_for_status()
         return response.json().get("data", {})
     except Exception as e:
-        print(f"Error fetching: {e}")
+        print(f"Error fetching data: {e}")
         return {}
 
 def make_bar(percent):
@@ -19,14 +19,12 @@ def make_bar(percent):
     return f"{'█' * done}{'░' * (10 - done)}"
 
 def block(title, items):
-    # Filter: Only show if percent > 1% and time is not '0 secs'
-    filtered_items = [i for i in items if i.get('percent', 0) > 1 and i.get('text') != "0 secs"]
-    
-    if not filtered_items:
-        return ""
+    # Only show if percent > 1.0 (removes the 0 sec/tiny entries)
+    filtered = [i for i in items if i.get('percent', 0) > 1.0]
+    if not filtered: return ""
     
     out = f"#### {title}\n| Item | Time | Progress |\n| :--- | :--- | :--- |\n"
-    for item in filtered_items[:5]:
+    for item in filtered[:5]:
         bar = make_bar(item.get('percent', 0))
         out += f"| {item['name']} | {item['text']} | `{bar}` {item['percent']}% |\n"
     return out + "\n"
@@ -38,40 +36,39 @@ all_time = fetch("https://wakatime.com/api/v1/users/current/stats/all_time")
 
 stats_content = ""
 
-# 1. Today's Stats (Only if coding happened)
+# 1. Today (Only show if > 0)
 if today.get("total_seconds", 0) > 0:
     stats_content += f"### ⏱ Today's Activity: {today.get('human_readable_total')}\n"
     stats_content += block("Languages", today.get("languages", []))
     stats_content += "---\n"
 
-# 2. Weekly Stats
+# 2. Last 7 Days
 stats_content += "### ⏳ Last 7 Days\n"
 stats_content += block("Languages", week.get("languages", []))
 stats_content += block("Projects", week.get("projects", []))
-stats_content += "---\n"
 
-# 3. All-Time Stats
+# 3. All Time (Impressive total)
 if all_time:
-    stats_content += f"### 🌍 Lifetime Coding: {all_time.get('human_readable_total')}\n"
+    stats_content += "---\n### 🌍 Lifetime Coding: " + all_time.get("human_readable_total", "0 secs") + "\n"
     stats_content += block("Top Languages", all_time.get("languages", []))
 
-# --- UPDATE README WITHOUT OVERWRITING ---
+# Update README
 try:
     with open("README.md", "r", encoding="utf-8") as f:
-        full_content = f.read()
+        readme = f.read()
 
-    # The key is to match EXACTLY between the markers
+    # The surgical pattern
     pattern = r"[\s\S]*"
-    new_block = f"\n{stats_content}"
+    replacement = f"\n{stats_content}\n"
 
-    if "" in full_content and "" in full_content:
-        updated_content = re.sub(pattern, new_block, full_content)
+    if "" in readme:
+        new_readme = re.sub(pattern, replacement, readme)
         with open("README.md", "w", encoding="utf-8") as f:
-            f.write(updated_content)
-        print("Successfully updated stats section.")
+            f.write(new_readme)
+        print("Successfully updated the stats section!")
     else:
-        print("Critical Error: Markers or not found!")
+        print("ERROR: Markers not found. README not modified.")
         sys.exit(1)
 except Exception as e:
-    print(f"File error: {e}")
+    print(f"File Error: {e}")
     sys.exit(1)

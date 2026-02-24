@@ -16,7 +16,7 @@ def fetch(url):
         return {}
 
 def make_progress_bar(percent):
-    # Creates a bar like ████░░░░░░
+    # Visual bar: ████░░░░░░
     done = int(percent / 10)
     left = 10 - done
     return f"{'█' * done}{'░' * left}"
@@ -64,7 +64,6 @@ try:
     with open("README.md", "r", encoding="utf-8") as f:
         readme = f.read()
 
-    # Fixed Regex: Only targets the content between the comments
     pattern = r"[\s\S]*"
     replacement = f"\n{content}"
 
@@ -72,9 +71,9 @@ try:
         new_readme = re.sub(pattern, replacement, readme)
         with open("README.md", "w", encoding="utf-8") as f:
             f.write(new_readme)
-        print("README updated with visual stats.")
+        print("README updated successfully.")
     else:
-        print("Error: Could not find markers!")
+        print("Markers not found!")
         sys.exit(1)
 except Exception as e:
     print(f"File error: {e}")

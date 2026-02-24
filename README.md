@@ -1,32 +1,64 @@
-# Hi there, I'm Yogeshwaran 👋
 
-<p align="left">
-<img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=spring-boot&logoColor=white" />
-<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
-<img src="https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white" />
-</p>
+### ⏱ Today's Activity: 0 secs
+
+_No coding activity tracked yet for today._
 
 ---
 
-### 🚀 Featured Projects
-* **Air Quality Prediction:** An AI project focusing on data preprocessing, feature engineering, and interpreting models.
-* **Study Sync:** A collaborative study platform featuring a real-time chat application built with Spring Boot and WebSockets.
-* **IntelliFarm:** A specialized project focused on agricultural impact and innovation.
+### ⏳ Last 7 Days
+#### Languages
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| Python | 4 hrs 7 mins | `███████░░░` 74.14% |
+| Java | 38 mins | `█░░░░░░░░░` 11.49% |
+| Text | 32 mins | `░░░░░░░░░░` 9.59% |
+| XML | 11 mins | `░░░░░░░░░░` 3.48% |
+| Docker | 1 min | `░░░░░░░░░░` 0.46% |
+
+#### Editors
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| VS Code | 4 hrs 44 mins | `████████░░` 85.13% |
+| IntelliJ IDEA | 49 mins | `█░░░░░░░░░` 14.87% |
+
+#### Projects
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.26% |
+| Air Quality Prediction Project | 1 hr 24 mins | `██░░░░░░░░` 25.19% |
+| yolov5 | 45 mins | `█░░░░░░░░░` 13.53% |
+| FirstProject | 26 mins | `░░░░░░░░░░` 7.99% |
+| Java Repository | 20 mins | `░░░░░░░░░░` 6.26% |
+
+
+### ⏱ Today's Activity: 0 secs
+
+_No coding activity tracked yet for today._
 
 ---
 
-### 📊 Coding Stats
----
+### ⏳ Last 7 Days
+#### Languages
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| Python | 4 hrs 7 mins | `███████░░░` 74.14% |
+| Java | 38 mins | `█░░░░░░░░░` 11.49% |
+| Text | 32 mins | `░░░░░░░░░░` 9.59% |
+| XML | 11 mins | `░░░░░░░░░░` 3.48% |
+| Docker | 1 min | `░░░░░░░░░░` 0.46% |
 
-### 📈 GitHub Insights
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=radical&include_all_commits=true&count_private=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=radical" />
-</p>
+#### Editors
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| VS Code | 4 hrs 44 mins | `████████░░` 85.13% |
+| IntelliJ IDEA | 49 mins | `█░░░░░░░░░` 14.87% |
 
-### 📫 Let's Connect
-- 🔭 Working on: AI, ML, and Web Development.
-- 🌱 Learning: Deep Learning and competitive programming.
-- ⚡ Fun fact: I recently participated in the **Devtrails 2026** hackathon!
+#### Projects
+| Item | Time | Progress |
+| :--- | :--- | :--- |
+| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.26% |
+| Air Quality Prediction Project | 1 hr 24 mins | `██░░░░░░░░` 25.19% |
+| yolov5 | 45 mins | `█░░░░░░░░░` 13.53% |
+| FirstProject | 26 mins | `░░░░░░░░░░` 7.99% |
+| Java Repository | 20 mins | `░░░░░░░░░░` 6.26% |
+

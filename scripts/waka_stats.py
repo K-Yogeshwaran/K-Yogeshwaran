@@ -10,6 +10,9 @@ def fetch(url):
 today = fetch("https://wakatime.com/api/v1/users/current/stats/today")
 week = fetch("https://wakatime.com/api/v1/users/current/stats/last_7_days")
 
+# Add this before the file write to debug in the Action logs
+print(f"Generated content length: {len(content)}")
+
 def block(title, items):
     out = f"### {title}\n"
     for item in items:

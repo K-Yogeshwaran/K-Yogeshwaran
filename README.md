@@ -26,19 +26,19 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Python | 4 hrs 7 mins | `███████░░░` 74.14% |
-| Java | 38 mins | `█░░░░░░░░░` 11.49% |
-| Text | 32 mins | `░░░░░░░░░░` 9.59% |
-| XML | 11 mins | `░░░░░░░░░░` 3.48% |
+| Python | 4 hrs 3 mins | `███████░░░` 73.75% |
+| Java | 38 mins | `█░░░░░░░░░` 11.67% |
+| Text | 32 mins | `░░░░░░░░░░` 9.74% |
+| XML | 11 mins | `░░░░░░░░░░` 3.53% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.26% |
-| Air Quality Prediction Project | 1 hr 24 mins | `██░░░░░░░░` 25.19% |
-| yolov5 | 45 mins | `█░░░░░░░░░` 13.53% |
-| FirstProject | 26 mins | `░░░░░░░░░░` 7.99% |
-| Java Repository | 20 mins | `░░░░░░░░░░` 6.26% |
+| Market Price Prediction | 2 hrs 34 mins | `████░░░░░░` 46.95% |
+| Air Quality Prediction Project | 1 hr 19 mins | `██░░░░░░░░` 24.07% |
+| yolov5 | 45 mins | `█░░░░░░░░░` 13.73% |
+| FirstProject | 26 mins | `░░░░░░░░░░` 8.11% |
+| Java Repository | 20 mins | `░░░░░░░░░░` 6.36% |
 
 ---
 ### 🌍 Lifetime Coding: 158 hrs 42 mins

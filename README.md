@@ -26,31 +26,31 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Java | 3 hrs 17 mins | `████░░░░░░` 44.61% |
-| Python | 2 hrs 15 mins | `███░░░░░░░` 30.64% |
-| XML | 45 mins | `█░░░░░░░░░` 10.22% |
-| Text | 22 mins | `░░░░░░░░░░` 5.11% |
-| JavaScript | 21 mins | `░░░░░░░░░░` 4.92% |
+| Python | 3 hrs 4 mins | `███░░░░░░░` 37.84% |
+| Java | 2 hrs 53 mins | `███░░░░░░░` 35.65% |
+| JavaScript | 48 mins | `░░░░░░░░░░` 9.93% |
+| XML | 34 mins | `░░░░░░░░░░` 6.99% |
+| Text | 22 mins | `░░░░░░░░░░` 4.65% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Traffic-Optimizer | 3 hrs 30 mins | `████░░░░░░` 47.51% |
-| Java Repository | 2 hrs 40 mins | `███░░░░░░░` 36.22% |
-| FirstProject | 48 mins | `█░░░░░░░░░` 10.93% |
-| Legal Analyzer | 7 mins | `░░░░░░░░░░` 1.78% |
-| yolov5 | 6 mins | `░░░░░░░░░░` 1.45% |
+| Traffic-Optimizer | 4 hrs 19 mins | `█████░░░░░` 53.2% |
+| Java Repository | 2 hrs 33 mins | `███░░░░░░░` 31.6% |
+| Full Stack Lab | 30 mins | `░░░░░░░░░░` 6.3% |
+| FirstProject | 21 mins | `░░░░░░░░░░` 4.47% |
+| Legal Analyzer | 7 mins | `░░░░░░░░░░` 1.62% |
 
 ---
-### 🌍 Lifetime Coding: 165 hrs 4 mins
+### 🌍 Lifetime Coding: 166 hrs 38 mins
 #### Top Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| JavaScript | 68 hrs 2 mins | `████░░░░░░` 41.16% |
-| Java | 35 hrs 2 mins | `██░░░░░░░░` 21.2% |
-| Python | 23 hrs | `█░░░░░░░░░` 13.92% |
-| CSS | 18 hrs 7 mins | `█░░░░░░░░░` 10.96% |
-| HTML | 7 hrs 47 mins | `░░░░░░░░░░` 4.71% |
+| JavaScript | 68 hrs 29 mins | `████░░░░░░` 41.04% |
+| Java | 35 hrs 17 mins | `██░░░░░░░░` 21.15% |
+| Python | 23 hrs 48 mins | `█░░░░░░░░░` 14.27% |
+| CSS | 18 hrs 8 mins | `█░░░░░░░░░` 10.88% |
+| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.69% |
 
 
 ---

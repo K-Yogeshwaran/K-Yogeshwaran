@@ -26,20 +26,20 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Python | 4 hrs 55 mins | `████░░░░░░` 48.53% |
-| Java | 2 hrs 53 mins | `██░░░░░░░░` 28.5% |
-| JavaScript | 48 mins | `░░░░░░░░░░` 7.94% |
-| XML | 34 mins | `░░░░░░░░░░` 5.59% |
-| Text | 23 mins | `░░░░░░░░░░` 3.78% |
+| Python | 4 hrs 55 mins | `████░░░░░░` 49.57% |
+| Java | 2 hrs 40 mins | `██░░░░░░░░` 26.98% |
+| JavaScript | 48 mins | `░░░░░░░░░░` 8.11% |
+| XML | 34 mins | `░░░░░░░░░░` 5.71% |
+| Text | 23 mins | `░░░░░░░░░░` 3.86% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Traffic-Optimizer | 4 hrs 19 mins | `████░░░░░░` 42.52% |
-| Java Repository | 2 hrs 33 mins | `██░░░░░░░░` 25.26% |
-| Legal Analyzer | 1 hr 34 mins | `█░░░░░░░░░` 15.5% |
-| Air Quality Prediction Project | 35 mins | `░░░░░░░░░░` 5.87% |
-| Full Stack Lab | 30 mins | `░░░░░░░░░░` 5.03% |
+| Traffic-Optimizer | 4 hrs 19 mins | `████░░░░░░` 43.42% |
+| Java Repository | 2 hrs 23 mins | `██░░░░░░░░` 24.01% |
+| Legal Analyzer | 1 hr 34 mins | `█░░░░░░░░░` 15.83% |
+| Air Quality Prediction Project | 35 mins | `░░░░░░░░░░` 5.99% |
+| Full Stack Lab | 30 mins | `░░░░░░░░░░` 5.14% |
 
 ---
 ### 🌍 Lifetime Coding: 168 hrs 40 mins

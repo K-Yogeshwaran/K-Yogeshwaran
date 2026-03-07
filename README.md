@@ -26,30 +26,30 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Python | 6 hrs 44 mins | `██████░░░░` 68.38% |
-| JavaScript | 48 mins | `░░░░░░░░░░` 8.18% |
-| Java | 40 mins | `░░░░░░░░░░` 6.82% |
-| XML | 30 mins | `░░░░░░░░░░` 5.21% |
-| Text | 24 mins | `░░░░░░░░░░` 4.14% |
+| Python | 6 hrs 13 mins | `███████░░░` 72.56% |
+| JavaScript | 48 mins | `░░░░░░░░░░` 9.4% |
+| Java | 40 mins | `░░░░░░░░░░` 7.84% |
+| Text | 12 mins | `░░░░░░░░░░` 2.42% |
+| JSON | 10 mins | `░░░░░░░░░░` 2.0% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Traffic-Optimizer | 4 hrs 19 mins | `████░░░░░░` 43.78% |
-| Legal Analyzer | 1 hr 34 mins | `█░░░░░░░░░` 15.96% |
-| Electricity Demand Forecasting | 1 hr 18 mins | `█░░░░░░░░░` 13.3% |
-| Machine Learning Project Academics | 41 mins | `░░░░░░░░░░` 6.95% |
-| Java Repository | 40 mins | `░░░░░░░░░░` 6.82% |
+| Traffic-Optimizer | 2 hrs 57 mins | `███░░░░░░░` 34.58% |
+| Legal Analyzer | 1 hr 34 mins | `█░░░░░░░░░` 18.35% |
+| Electricity Demand Forecasting | 1 hr 29 mins | `█░░░░░░░░░` 17.31% |
+| Machine Learning Project Academics | 41 mins | `░░░░░░░░░░` 7.99% |
+| Java Repository | 40 mins | `░░░░░░░░░░` 7.84% |
 
 ---
-### 🌍 Lifetime Coding: 170 hrs 38 mins
+### 🌍 Lifetime Coding: 170 hrs 49 mins
 #### Top Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| JavaScript | 68 hrs 29 mins | `████░░░░░░` 40.07% |
-| Java | 35 hrs 17 mins | `██░░░░░░░░` 20.65% |
-| Python | 27 hrs 29 mins | `█░░░░░░░░░` 16.08% |
-| CSS | 18 hrs 8 mins | `█░░░░░░░░░` 10.62% |
+| JavaScript | 68 hrs 29 mins | `████░░░░░░` 40.03% |
+| Java | 35 hrs 17 mins | `██░░░░░░░░` 20.63% |
+| Python | 27 hrs 35 mins | `█░░░░░░░░░` 16.12% |
+| CSS | 18 hrs 8 mins | `█░░░░░░░░░` 10.61% |
 | HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.58% |
 
 

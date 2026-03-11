@@ -26,31 +26,31 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Python | 3 hrs 50 mins | `█████░░░░░` 51.09% |
-| Java | 1 hr 37 mins | `██░░░░░░░░` 21.52% |
-| JavaScript | 39 mins | `░░░░░░░░░░` 8.7% |
-| XML | 19 mins | `░░░░░░░░░░` 4.35% |
-| YAML | 10 mins | `░░░░░░░░░░` 2.37% |
+| Java | 3 hrs 58 mins | `████░░░░░░` 46.19% |
+| Python | 1 hr 54 mins | `██░░░░░░░░` 22.24% |
+| JavaScript | 1 hr 10 mins | `█░░░░░░░░░` 13.74% |
+| XML | 23 mins | `░░░░░░░░░░` 4.5% |
+| Java Properties | 14 mins | `░░░░░░░░░░` 2.84% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Backend | 1 hr 32 mins | `██░░░░░░░░` 20.48% |
-| Legal Analyzer | 1 hr 30 mins | `██░░░░░░░░` 20.12% |
-| Electricity Demand Forecasting | 1 hr 29 mins | `█░░░░░░░░░` 19.75% |
-| Machine Learning Project Academics | 41 mins | `░░░░░░░░░░` 9.11% |
-| session1-llm-as-api | 40 mins | `░░░░░░░░░░` 9.07% |
+| Backend | 4 hrs 11 mins | `████░░░░░░` 48.71% |
+| Electricity Demand Forecasting | 1 hr 29 mins | `█░░░░░░░░░` 17.26% |
+| Frontend | 1 hr 11 mins | `█░░░░░░░░░` 13.8% |
+| Machine Learning Project Academics | 41 mins | `░░░░░░░░░░` 7.96% |
+| session1-llm-as-api | 40 mins | `░░░░░░░░░░` 7.92% |
 
 ---
-### 🌍 Lifetime Coding: 174 hrs 3 mins
+### 🌍 Lifetime Coding: 177 hrs 14 mins
 #### Top Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| JavaScript | 69 hrs 8 mins | `███░░░░░░░` 39.66% |
-| Java | 36 hrs 54 mins | `██░░░░░░░░` 21.17% |
-| Python | 27 hrs 35 mins | `█░░░░░░░░░` 15.83% |
-| CSS | 18 hrs 8 mins | `█░░░░░░░░░` 10.41% |
-| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.49% |
+| JavaScript | 69 hrs 40 mins | `███░░░░░░░` 39.25% |
+| Java | 39 hrs 15 mins | `██░░░░░░░░` 22.12% |
+| Python | 27 hrs 35 mins | `█░░░░░░░░░` 15.54% |
+| CSS | 18 hrs 9 mins | `█░░░░░░░░░` 10.23% |
+| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.41% |
 
 
 ---

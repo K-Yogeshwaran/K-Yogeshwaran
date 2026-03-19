@@ -42,15 +42,15 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 | Portfolio Project | 15 mins | `░░░░░░░░░░` 4.1% |
 
 ---
-### 🌍 Lifetime Coding: 185 hrs 23 mins
+### 🌍 Lifetime Coding: 186 hrs 19 mins
 #### Top Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| JavaScript | 73 hrs 22 mins | `███░░░░░░░` 39.52% |
-| Java | 40 hrs 52 mins | `██░░░░░░░░` 22.02% |
-| Python | 29 hrs 17 mins | `█░░░░░░░░░` 15.77% |
-| CSS | 18 hrs 48 mins | `█░░░░░░░░░` 10.13% |
-| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.22% |
+| JavaScript | 73 hrs 22 mins | `███░░░░░░░` 39.33% |
+| Java | 41 hrs 40 mins | `██░░░░░░░░` 22.34% |
+| Python | 29 hrs 18 mins | `█░░░░░░░░░` 15.71% |
+| CSS | 18 hrs 48 mins | `█░░░░░░░░░` 10.08% |
+| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.2% |
 
 
 ---

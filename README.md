@@ -26,29 +26,30 @@ I am a dedicated developer based in **Coimbatore, Tamil Nadu**, focused on build
 #### Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| Java | 2 hrs 44 mins | `█████░░░░░` 51.12% |
-| JavaScript | 2 hrs 20 mins | `████░░░░░░` 43.54% |
-| XML | 7 mins | `░░░░░░░░░░` 2.35% |
-| Java Properties | 3 mins | `░░░░░░░░░░` 1.24% |
-| Image (svg) | 3 mins | `░░░░░░░░░░` 1.01% |
+| JavaScript | 3 hrs 3 mins | `████░░░░░░` 49.65% |
+| Java | 2 hrs 42 mins | `████░░░░░░` 44.19% |
+| Bash | 10 mins | `░░░░░░░░░░` 2.9% |
+| XML | 7 mins | `░░░░░░░░░░` 2.05% |
+| Python | 4 mins | `░░░░░░░░░░` 1.21% |
 
 #### Projects
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| StudySync | 4 hrs 21 mins | `████████░░` 81.14% |
-| DevTrails_Project | 45 mins | `█░░░░░░░░░` 14.21% |
-| Java Repository | 14 mins | `░░░░░░░░░░` 4.64% |
+| StudySync | 4 hrs 43 mins | `███████░░░` 76.96% |
+| Smart Waste Collection Monitoring | 50 mins | `█░░░░░░░░░` 13.79% |
+| Java Repository | 23 mins | `░░░░░░░░░░` 6.43% |
+| DevTrails_Project | 7 mins | `░░░░░░░░░░` 2.08% |
 
 ---
-### 🌍 Lifetime Coding: 190 hrs 44 mins
+### 🌍 Lifetime Coding: 192 hrs 28 mins
 #### Top Languages
 | Item | Time | Progress |
 | :--- | :--- | :--- |
-| JavaScript | 75 hrs 43 mins | `███░░░░░░░` 39.64% |
-| Java | 43 hrs 37 mins | `██░░░░░░░░` 22.84% |
-| Python | 29 hrs 18 mins | `█░░░░░░░░░` 15.34% |
-| CSS | 18 hrs 48 mins | `░░░░░░░░░░` 9.85% |
-| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.1% |
+| JavaScript | 76 hrs 25 mins | `███░░░░░░░` 39.65% |
+| Java | 44 hrs 23 mins | `██░░░░░░░░` 23.03% |
+| Python | 29 hrs 23 mins | `█░░░░░░░░░` 15.24% |
+| CSS | 18 hrs 48 mins | `░░░░░░░░░░` 9.76% |
+| HTML | 7 hrs 49 mins | `░░░░░░░░░░` 4.06% |
 
 
 ---

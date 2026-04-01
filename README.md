@@ -1,155 +1,143 @@
 <div align="center">
 
-# Yogeshwaran K
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Yogeshwaran+K;Software+Engineer;Java+%26+Full-Stack+Developer" alt="Typing SVG" />
 
-**Software Engineer · Java & Full-Stack Developer · Coimbatore, India**
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/k-yogeshwaran)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/K-Yogeshwaran)
-[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=flat-square&logo=wakatime&logoColor=white)](https://wakatime.com/@K-Yogeshwaran)
+**`Software Engineer · Java & Full-Stack · Coimbatore, India`**
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/k-yogeshwaran)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/K-Yogeshwaran)
+[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@K-Yogeshwaran)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yogeshwaran@example.com)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=K-Yogeshwaran&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
 
 </div>
 
 ---
 
-## About Me
+## 🧑‍💻 About Me
 
-> Software engineer focused on building **production-grade Java backends** and full-stack systems.
-> I thrive on clean architecture, scalable APIs, and shipping things that actually work.
+```java
+public class Yogeshwaran {
 
-- **Primary stack:** Java · Spring Boot · REST APIs · Microservices
-- **Building now:** GigShield — AI parametric insurance platform · Guidewire DevTrails 2026
-- **Exploring:** Distributed systems · JVM internals · System design patterns
-- **ML as a tool:** Applied XGBoost and scikit-learn when the problem calls for it
+    String role        = "Software Engineer";
+    String location    = "Coimbatore, Tamil Nadu, India";
+    String college     = "Sri Eshwar College of Engineering";
+
+    String[] primary   = { "Java", "Spring Boot", "Microservices", "REST APIs" };
+    String[] frontend  = { "React", "React Native", "TypeScript" };
+    String[] databases = { "PostgreSQL", "MongoDB", "Redis" };
+    String   ml        = "Applied when the problem calls for it";
+
+    String building    = "GigShield — AI parametric insurance · DevTrails 2026";
+    String exploring   = "Distributed systems · JVM internals · System design";
+
+    String philosophy  = "Clean architecture. Scalable APIs. Ship things that work.";
+}
+```
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
+
+<div align="center">
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=java,python,js,ts,bash&theme=dark)](https://skillicons.dev)
 
 ### Frameworks & Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=spring,react,flask,nodejs&theme=dark)](https://skillicons.dev)
 
 ### Databases & Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,github&theme=dark)](https://skillicons.dev)
 
-### ML Toolkit (Applied)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EA4335?style=flat-square&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-111111?style=flat-square&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+### Tools & Editors
+[![Skills](https://skillicons.dev/icons?i=vscode,idea,git,postman,linux&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### 🛡️ GigShield &nbsp; `[Guidewire DevTrails 2026]`
-> **Java · Spring Boot · Python · XGBoost · Flask · React Native · PostgreSQL**
+<div align="center">
 
-Parametric insurance platform for India's gig economy. Designed a full microservices backend in Spring Boot — Worker, Policy, Claims, and Payout services — with an XGBoost-powered premium calculator and a Flask trigger engine for real-time event detection. React Native app connects workers, insurers, and claim handlers in one unified flow.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🛡️ **[GigShield](https://github.com/K-Yogeshwaran)** | Parametric insurance platform for India's gig economy. Spring Boot microservices — Worker, Policy, Claims & Payout — with XGBoost premium calculator and Flask trigger engine. | `Java` `Spring Boot` `XGBoost` `React Native` `PostgreSQL` |
+| 📚 **[StudySync](https://github.com/K-Yogeshwaran)** | Real-time collaborative study platform. Architected WebSocket layer and REST API backend with room-based sessions and live presence indicators. | `Spring Boot` `WebSockets` `React` `MongoDB` |
+| 🌾 **[IntelliFarm](https://github.com/K-Yogeshwaran)** | IoT + ML platform bridging traditional farming and data-driven agriculture. Real-time soil/weather monitoring, crop prediction, and resource automation. Unifies farmers, dealers, and drivers. | `Python` `Spring Boot` `IoT` `scikit-learn` `React` |
 
----
-
-### 📚 StudySync &nbsp; `[Real-time Platform]`
-> **Spring Boot · WebSockets · React · MongoDB**
-
-Real-time collaborative study platform. Architected the WebSocket layer and REST API backend with room-based sessions, live presence indicators, and concurrent document editing. Built for low-latency multi-user state synchronization.
-
----
-
-### 🌾 IntelliFarm &nbsp; `[IoT + ML]`
-> **Python · Spring Boot · IoT · scikit-learn · React · PostgreSQL**
-
-A digital farming consultant bridging traditional agriculture and data-driven decisions. IoT sensors stream soil and weather data in real time; ML models drive crop prediction and resource automation. Integrates farmers, dealers, and logistics drivers into one unified application.
+</div>
 
 ---
 
 ## 📊 Coding Activity
 
-> **All-time:** `202 hrs 23 mins` &nbsp;|&nbsp; **Last 7 days:** `11 hrs 39 mins`
+<div align="center">
 
-```text
-# last 7 days · 11 hrs 39 mins
-Language         Bar                       Pct       Time
-----------------------------------------------------------
-JavaScript       █████████░░░░░░░░░░░    48.6%  5 hrs 39 mins
-Java             ██████░░░░░░░░░░░░░░    31.4%  3 hrs 39 mins
-Python           ░░░░░░░░░░░░░░░░░░░░     4.1%    28 mins
-Bash             ░░░░░░░░░░░░░░░░░░░░     4.0%    27 mins
-XML              ░░░░░░░░░░░░░░░░░░░░     3.4%    24 mins
-CSS              ░░░░░░░░░░░░░░░░░░░░     2.1%    14 mins
-GitIgnore file   ░░░░░░░░░░░░░░░░░░░░     1.5%    10 mins
-Batchfile        ░░░░░░░░░░░░░░░░░░░░     0.9%     6 mins
+![All-Time](https://img.shields.io/badge/All--Time_Coding-202_hrs_23_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-11_hrs_39_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
-# active projects (7 days)
-Project                           Time   Share
---------------------------------------------------
-DevTrails_Project            5 hrs 27 mins   46.8%
-Smart Waste Collection Moni  3 hrs 46 mins   32.4%
-project1                       38 mins    5.6%
-StudySync                      32 mins    4.7%
-Java Repository                23 mins    3.4%
-```
+![Top Project](https://img.shields.io/badge/Top_Project-DevTrails_Project-d29922?style=for-the-badge&logo=github&logoColor=white)
 
-```text
-# last 30 days · 37 hrs 29 mins
-Language         Bar                       Pct       Time
-----------------------------------------------------------
-JavaScript       ███████░░░░░░░░░░░░░    35.7%  13 hrs 24 mins
-Java             ██████░░░░░░░░░░░░░░    32.7%  12 hrs 16 mins
-Python           ███░░░░░░░░░░░░░░░░░    18.2%  6 hrs 50 mins
-CSS              ░░░░░░░░░░░░░░░░░░░░     2.5%    56 mins
-XML              ░░░░░░░░░░░░░░░░░░░░     2.5%    55 mins
-Bash             ░░░░░░░░░░░░░░░░░░░░     1.4%    32 mins
-Java Properties  ░░░░░░░░░░░░░░░░░░░░     1.1%    24 mins
-Properties       ░░░░░░░░░░░░░░░░░░░░     0.7%    16 mins
-```
+<br/>
 
-```text
-# all-time · 202 hrs 23 mins
-Language         Bar                       Pct       Time
-----------------------------------------------------------
-JavaScript       ████████░░░░░░░░░░░░    40.1%  81 hrs 22 mins
-Java             ████░░░░░░░░░░░░░░░░    23.3%  47 hrs 17 mins
-Python           ██░░░░░░░░░░░░░░░░░░    14.7%  29 hrs 47 mins
-CSS              █░░░░░░░░░░░░░░░░░░░     9.4%  19 hrs 3 mins
-HTML             ░░░░░░░░░░░░░░░░░░░░     3.9%  7 hrs 54 mins
-Text             ░░░░░░░░░░░░░░░░░░░░     2.5%  5 hrs 4 mins
-Markdown         ░░░░░░░░░░░░░░░░░░░░     1.4%  2 hrs 49 mins
-SQL              ░░░░░░░░░░░░░░░░░░░░     1.1%  2 hrs 19 mins
-```
+<img src="https://github-readme-stats.vercel.app/api/wakatime?username=K-Yogeshwaran&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff&layout=compact&langs_count=8&custom_title=WakaTime%20Activity" alt="WakaTime Stats" />
+
+<br/>
+
+**Last 7 days — active languages only:**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-5_hrs_39_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-3_hrs_39_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-28_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-27_mins-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![XML](https://img.shields.io/badge/XML-24_mins-555555?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-14_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![GitIgnore file](https://img.shields.io/badge/GitIgnore_file-10_mins-555555?style=flat-square&logoColor=white) ![Batchfile](https://img.shields.io/badge/Batchfile-6_mins-555555?style=flat-square&logoColor=white)
+
+**All-time — top languages:**
+
+![JavaScript](https://img.shields.io/badge/JavaScript-81_hrs_22_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-47_hrs_17_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-29_hrs_47_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-19_hrs_3_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-7_hrs_54_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Text](https://img.shields.io/badge/Text-5_hrs_4_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-2_hrs_49_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-2_hrs_19_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white)
+
+
+</div>
 
 ---
 
 ## 📈 GitHub Insights
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=github_dark&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=K-Yogeshwaran&theme=github-dark-blue&hide_border=true" />
-</p>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=K-Yogeshwaran&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=K-Yogeshwaran&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=K-Yogeshwaran&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" />
+
+</div>
 
 ---
 
 <div align="center">
-  <sub>📡 Stats auto-refreshed daily via GitHub Actions + WakaTime API</sub>
+
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" />
+
+<sub>📡 Coding stats auto-refreshed daily via <b>GitHub Actions</b> + <b>WakaTime API</b></sub>
+
 </div>

@@ -11,191 +11,222 @@ def fetch(url):
     except:
         return {}
 
-def make_bar(percent, width=20):
-    done = int(percent / (100 / width))
-    return "█" * done + "░" * (width - done)
+def active_only(items):
+    return [i for i in items if i.get("total_seconds", 0) >= 60]
 
-def lang_block(comment, items):
-    filtered = [i for i in items if i.get("total_seconds", 0) >= 60]
-    if not filtered:
-        return ""
-    out = f"# {comment}\n"
-    out += f"{'Language':<16} {'Bar':<22} {'Pct':>6}  {'Time':>9}\n"
-    out += "-" * 58 + "\n"
-    for item in filtered[:8]:
-        bar = make_bar(item.get("percent", 0))
-        name = item["name"][:15]
-        pct = f"{round(item.get('percent', 0), 1)}%"
-        time = item.get("text", "")
-        out += f"{name:<16} {bar:<22} {pct:>6}  {time:>9}\n"
-    return out
+def badge_row(items):
+    COLOR_MAP = {
+        "Java":       ("ED8B00", "openjdk"),
+        "Python":     ("3776AB", "python"),
+        "JavaScript": ("F7DF1E", "javascript"),
+        "TypeScript": ("3178C6", "typescript"),
+        "CSS":        ("1572B6", "css3"),
+        "HTML":       ("E34F26", "html5"),
+        "Bash":       ("4EAA25", "gnubash"),
+        "SQL":        ("4479A1", "postgresql"),
+        "XML":        ("555555", ""),
+        "Markdown":   ("000000", "markdown"),
+        "Text":       ("555555", ""),
+        "Properties": ("555555", ""),
+    }
+    badges = []
+    for item in items[:8]:
+        name  = item["name"]
+        time  = item.get("text", "").replace(" ", "_")
+        color, logo = COLOR_MAP.get(name, ("555555", ""))
+        label = name.replace("-", "--").replace(" ", "_")
+        logo_part = f"&logo={logo}" if logo else ""
+        badges.append(
+            f"![{name}](https://img.shields.io/badge/{label}-{time}-{color}?style=flat-square{logo_part}&logoColor=white)"
+        )
+    return " ".join(badges)
 
-def project_block(title, items):
-    filtered = [i for i in items if i.get("total_seconds", 0) >= 60]
-    if not filtered:
-        return ""
-    out = f"\n# {title}\n"
-    out += f"{'Project':<28} {'Time':>9}  {'Share':>6}\n"
-    out += "-" * 50 + "\n"
-    for item in filtered[:5]:
-        name = item["name"][:27]
-        time = item.get("text", "")
-        pct = f"{round(item.get('percent', 0), 1)}%"
-        out += f"{name:<28} {time:>9}  {pct:>6}\n"
-    return out
+def summary_badges(week_total, alltime_total, week_projects):
+    week_clean = week_total.replace(" ", "_")
+    at_clean   = alltime_total.replace(" ", "_")
+    lines = []
+    lines.append(
+        f"![All-Time](https://img.shields.io/badge/All--Time_Coding-{at_clean}-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)"
+        f"&nbsp;&nbsp;"
+        f"![This Week](https://img.shields.io/badge/This_Week-{week_clean}-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)"
+    )
+    if week_projects:
+        proj = week_projects[0].get("name", "")[:20].replace(" ", "_").replace("-", "--")
+        lines.append(
+            f"![Top Project](https://img.shields.io/badge/Top_Project-{proj}-d29922?style=for-the-badge&logo=github&logoColor=white)"
+        )
+    return "\n\n".join(lines)
 
-def wrap_codeblock(content):
-    if not content.strip():
-        return ""
-    return f"```text\n{content.strip()}\n```\n\n"
-
-# Fetch stats
-today    = fetch("https://wakatime.com/api/v1/users/current/stats/today")
+# ── Fetch ─────────────────────────────────────────────────────────────────────
 week     = fetch("https://wakatime.com/api/v1/users/current/stats/last_7_days")
-month    = fetch("https://wakatime.com/api/v1/users/current/stats/last_30_days")
 all_time = fetch("https://wakatime.com/api/v1/users/current/stats/all_time")
 
-alltime_total = all_time.get("human_readable_total", "N/A") if all_time else "N/A"
-week_total    = week.get("human_readable_total", "N/A")
+week_total    = week.get("human_readable_total", "0 hrs")
+alltime_total = all_time.get("human_readable_total", "0 hrs") if all_time else "0 hrs"
+week_langs    = active_only(week.get("languages", []))
+week_projects = active_only(week.get("projects", []))
+at_langs      = active_only(all_time.get("languages", [])) if all_time else []
 
-readme = """\
+WAKA_USER = "K-Yogeshwaran"
+
+wakatime_img = (
+    f"https://github-readme-stats.vercel.app/api/wakatime"
+    f"?username={WAKA_USER}&theme=github_dark&hide_border=true"
+    f"&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9&icon_color=58a6ff"
+    f"&layout=compact&langs_count=8&custom_title=WakaTime%20Activity"
+)
+
+stats_block = f"""\
+{summary_badges(week_total, alltime_total, week_projects)}
+
+<br/>
+
+<img src="{wakatime_img}" alt="WakaTime Stats" />
+
+<br/>
+
+**Last 7 days — active languages only:**
+
+{badge_row(week_langs)}
+
+**All-time — top languages:**
+
+{badge_row(at_langs)}
+"""
+
+readme = f"""\
 <div align="center">
 
-# Yogeshwaran K
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=32&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=Yogeshwaran+K;Software+Engineer;Java+%26+Full-Stack+Developer" alt="Typing SVG" />
 
-**Software Engineer · Java & Full-Stack Developer · Coimbatore, India**
+<br/>
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/k-yogeshwaran)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/K-Yogeshwaran)
-[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=flat-square&logo=wakatime&logoColor=white)](https://wakatime.com/@K-Yogeshwaran)
+**`Software Engineer · Java & Full-Stack · Coimbatore, India`**
+
+<br/>
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/k-yogeshwaran)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/K-Yogeshwaran)
+[![WakaTime](https://img.shields.io/badge/WakaTime-000000?style=for-the-badge&logo=wakatime&logoColor=white)](https://wakatime.com/@K-Yogeshwaran)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:yogeshwaran@example.com)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=K-Yogeshwaran&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS)
 
 </div>
 
 ---
 
-## About Me
+## 🧑‍💻 About Me
 
-> Software engineer focused on building **production-grade Java backends** and full-stack systems.
-> I thrive on clean architecture, scalable APIs, and shipping things that actually work.
+```java
+public class Yogeshwaran {{
 
-- **Primary stack:** Java · Spring Boot · REST APIs · Microservices
-- **Building now:** GigShield — AI parametric insurance platform · Guidewire DevTrails 2026
-- **Exploring:** Distributed systems · JVM internals · System design patterns
-- **ML as a tool:** Applied XGBoost and scikit-learn when the problem calls for it
+    String role        = "Software Engineer";
+    String location    = "Coimbatore, Tamil Nadu, India";
+    String college     = "Sri Eshwar College of Engineering";
+
+    String[] primary   = {{ "Java", "Spring Boot", "Microservices", "REST APIs" }};
+    String[] frontend  = {{ "React", "React Native", "TypeScript" }};
+    String[] databases = {{ "PostgreSQL", "MongoDB", "Redis" }};
+    String   ml        = "Applied when the problem calls for it";
+
+    String building    = "GigShield — AI parametric insurance · DevTrails 2026";
+    String exploring   = "Distributed systems · JVM internals · System design";
+
+    String philosophy  = "Clean architecture. Scalable APIs. Ship things that work.";
+}}
+```
 
 ---
 
-## Tech Stack
+## 🛠️ Tech Stack
+
+<div align="center">
 
 ### Languages
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=java,python,js,ts,bash&theme=dark)](https://skillicons.dev)
 
 ### Frameworks & Backend
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-square&logo=spring-boot&logoColor=white)
-![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![React Native](https://img.shields.io/badge/React_Native-20232A?style=flat-square&logo=react&logoColor=61DAFB)
-![Flask](https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white)
-![WebSockets](https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socket.io&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=spring,react,flask,nodejs&theme=dark)](https://skillicons.dev)
 
 ### Databases & Infrastructure
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+[![Skills](https://skillicons.dev/icons?i=postgres,mongodb,redis,docker,github&theme=dark)](https://skillicons.dev)
 
-### ML Toolkit (Applied)
-![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
-![XGBoost](https://img.shields.io/badge/XGBoost-EA4335?style=flat-square&logoColor=white)
-![YOLOv8](https://img.shields.io/badge/YOLOv8-111111?style=flat-square&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white)
+### Tools & Editors
+[![Skills](https://skillicons.dev/icons?i=vscode,idea,git,postman,linux&theme=dark)](https://skillicons.dev)
+
+</div>
 
 ---
 
-## Featured Projects
+## 🚀 Featured Projects
 
-### 🛡️ GigShield &nbsp; `[Guidewire DevTrails 2026]`
-> **Java · Spring Boot · Python · XGBoost · Flask · React Native · PostgreSQL**
+<div align="center">
 
-Parametric insurance platform for India's gig economy. Designed a full microservices backend in Spring Boot — Worker, Policy, Claims, and Payout services — with an XGBoost-powered premium calculator and a Flask trigger engine for real-time event detection. React Native app connects workers, insurers, and claim handlers in one unified flow.
+| Project | Description | Stack |
+|---------|-------------|-------|
+| 🛡️ **[GigShield](https://github.com/K-Yogeshwaran)** | Parametric insurance platform for India's gig economy. Spring Boot microservices — Worker, Policy, Claims & Payout — with XGBoost premium calculator and Flask trigger engine. | `Java` `Spring Boot` `XGBoost` `React Native` `PostgreSQL` |
+| 📚 **[StudySync](https://github.com/K-Yogeshwaran)** | Real-time collaborative study platform. Architected WebSocket layer and REST API backend with room-based sessions and live presence indicators. | `Spring Boot` `WebSockets` `React` `MongoDB` |
+| 🌾 **[IntelliFarm](https://github.com/K-Yogeshwaran)** | IoT + ML platform bridging traditional farming and data-driven agriculture. Real-time soil/weather monitoring, crop prediction, and resource automation. Unifies farmers, dealers, and drivers. | `Python` `Spring Boot` `IoT` `scikit-learn` `React` |
 
----
-
-### 📚 StudySync &nbsp; `[Real-time Platform]`
-> **Spring Boot · WebSockets · React · MongoDB**
-
-Real-time collaborative study platform. Architected the WebSocket layer and REST API backend with room-based sessions, live presence indicators, and concurrent document editing. Built for low-latency multi-user state synchronization.
-
----
-
-### 🌾 IntelliFarm &nbsp; `[IoT + ML]`
-> **Python · Spring Boot · IoT · scikit-learn · React · PostgreSQL**
-
-A digital farming consultant bridging traditional agriculture and data-driven decisions. IoT sensors stream soil and weather data in real time; ML models drive crop prediction and resource automation. Integrates farmers, dealers, and logistics drivers into one unified application.
+</div>
 
 ---
 
 ## 📊 Coding Activity
 
-"""
+<div align="center">
 
-readme += f"> **All-time:** `{alltime_total}` &nbsp;|&nbsp; **Last 7 days:** `{week_total}`\n\n"
+{stats_block}
 
-if today.get("total_seconds", 0) > 0:
-    block = lang_block(
-        f"today · {today.get('human_readable_total', '')}",
-        today.get("languages", [])
-    ) + project_block("projects", today.get("projects", []))
-    readme += wrap_codeblock(block)
+</div>
 
-week_block = lang_block(
-    f"last 7 days · {week_total}",
-    week.get("languages", [])
-) + project_block("active projects (7 days)", week.get("projects", []))
-readme += wrap_codeblock(week_block)
-
-if month.get("total_seconds", 0) > 0:
-    m_block = lang_block(
-        f"last 30 days · {month.get('human_readable_total', '')}",
-        month.get("languages", [])
-    )
-    readme += wrap_codeblock(m_block)
-
-if all_time:
-    at_block = lang_block(
-        f"all-time · {alltime_total}",
-        all_time.get("languages", [])
-    )
-    readme += wrap_codeblock(at_block)
-
-readme += """\
 ---
 
 ## 📈 GitHub Insights
 
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true" />
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=github_dark&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=K-Yogeshwaran&theme=github-dark-blue&hide_border=true" />
-</p>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=K-Yogeshwaran&show_icons=true&theme=github_dark&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117&title_color=58a6ff&icon_color=58a6ff&text_color=c9d1d9" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=K-Yogeshwaran&layout=compact&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=c9d1d9" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=K-Yogeshwaran&theme=github-dark-blue&hide_border=true&background=0d1117&stroke=58a6ff&ring=58a6ff&fire=ff6b6b&currStreakNum=ffffff&sideNums=58a6ff&currStreakLabel=58a6ff&sideLabels=8b949e&dates=8b949e" />
+
+<br/>
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=K-Yogeshwaran&theme=github-compact&hide_border=true&bg_color=0d1117&color=58a6ff&line=58a6ff&point=ffffff&area=true&area_color=58a6ff" />
+
+</div>
+
+---
+
+## 🏆 GitHub Trophies
+
+<div align="center">
+
+<img src="https://github-profile-trophy.vercel.app/?username=K-Yogeshwaran&theme=algolia&no-frame=true&no-bg=true&margin-w=4&row=1" />
+
+</div>
 
 ---
 
 <div align="center">
-  <sub>📡 Stats auto-refreshed daily via GitHub Actions + WakaTime API</sub>
+
+<img src="https://raw.githubusercontent.com/mayhemantt/mayhemantt/Update/svg/Bottom.svg" />
+
+<sub>📡 Coding stats auto-refreshed daily via <b>GitHub Actions</b> + <b>WakaTime API</b></sub>
+
 </div>
 """
 
 with open("README.md", "w", encoding="utf-8") as f:
     f.write(readme)
 
-print("✅ README regenerated successfully!")
+print(f"✅ README.md generated!")
+print(f"   All-time : {alltime_total}")
+print(f"   This week: {week_total}")
+print(f"   Active langs (7d): {[i['name'] for i in week_langs]}")

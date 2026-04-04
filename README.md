@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-205_hrs_3_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-12_hrs_3_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-205_hrs_3_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-9_hrs_39_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-DevTrails_Project-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-5_hrs_3_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-4_hrs_13_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-27_mins-3178C6?style=flat-square&logo=typescript&logoColor=white) ![XML](https://img.shields.io/badge/XML-24_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-24_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-19_mins-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-14_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-11_mins-555555?style=flat-square&logoColor=white)
+![Java](https://img.shields.io/badge/Java-4_hrs_13_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-2_hrs_36_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-52_mins-3178C6?style=flat-square&logo=typescript&logoColor=white) ![XML](https://img.shields.io/badge/XML-24_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-24_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-13_mins-555555?style=flat-square&logoColor=white) ![GitIgnore file](https://img.shields.io/badge/GitIgnore_file-10_mins-555555?style=flat-square&logoColor=white) ![Batchfile](https://img.shields.io/badge/Batchfile-6_mins-555555?style=flat-square&logoColor=white)
 
 **All-time — top languages:**
 

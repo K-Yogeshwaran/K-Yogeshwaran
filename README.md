@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-208_hrs_31_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-2_hrs_1_min-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-208_hrs_31_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_3_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-Task_2-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Other](https://img.shields.io/badge/Other-1_hr_30_mins-555555?style=flat-square&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-1_hr_6_mins-3178C6?style=flat-square&logo=typescript&logoColor=white) ![Git Config](https://img.shields.io/badge/Git_Config-20_mins-555555?style=flat-square&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-12_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-6_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-4_mins-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-4_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Git](https://img.shields.io/badge/Git-3_mins-555555?style=flat-square&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-53_mins-3178C6?style=flat-square&logo=typescript&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-8_mins-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 **All-time — top languages:**
 

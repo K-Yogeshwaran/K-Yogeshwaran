@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-222_hrs_20_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-4_hrs_23_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-222_hrs_20_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_49_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-Air_Quality_Predicti-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Python](https://img.shields.io/badge/Python-2_hrs_39_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-53_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-26_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-17_mins-555555?style=flat-square&logoColor=white) ![Text](https://img.shields.io/badge/Text-3_mins-555555?style=flat-square&logoColor=white) ![CSV](https://img.shields.io/badge/CSV-3_mins-555555?style=flat-square&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-1_min-555555?style=flat-square&logoColor=white)
+![Python](https://img.shields.io/badge/Python-2_hrs_39_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-36_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-24_mins-555555?style=flat-square&logoColor=white) ![Text](https://img.shields.io/badge/Text-3_mins-555555?style=flat-square&logoColor=white) ![CSV](https://img.shields.io/badge/CSV-3_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-1_min-555555?style=flat-square&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-1_min-555555?style=flat-square&logoColor=white)
 
 **All-time — top languages:**
 

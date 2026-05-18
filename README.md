@@ -82,7 +82,9 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-226_hrs_31_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-0_hrs-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-226_hrs_31_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-2_hrs_57_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+
+![Top Project](https://img.shields.io/badge/Top_Project-Java_Repository-d29922?style=for-the-badge&logo=github&logoColor=white)
 
 <br/>
 
@@ -92,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-
+![Java](https://img.shields.io/badge/Java-2_hrs_42_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-13_mins-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **All-time — top languages:**
 

@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-234_hrs_29_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_4_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-234_hrs_29_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_6_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-DockerForJava-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Java](https://img.shields.io/badge/Java-59_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-47_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-28_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-20_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-10_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-8_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-6_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-1_min-000000?style=flat-square&logo=markdown&logoColor=white)
+![Java](https://img.shields.io/badge/Java-1_hr_1_min-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-47_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-28_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-20_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-10_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-8_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-6_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-1_min-000000?style=flat-square&logo=markdown&logoColor=white)
 
 **All-time — top languages:**
 

@@ -82,9 +82,9 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-234_hrs_29_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_6_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-236_hrs_11_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_28_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
-![Top Project](https://img.shields.io/badge/Top_Project-DockerForJava-d29922?style=for-the-badge&logo=github&logoColor=white)
+![Top Project](https://img.shields.io/badge/Top_Project-user--service-d29922?style=for-the-badge&logo=github&logoColor=white)
 
 <br/>
 
@@ -94,11 +94,11 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Java](https://img.shields.io/badge/Java-1_hr_1_min-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-47_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-28_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-20_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-10_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-8_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-6_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-1_min-000000?style=flat-square&logo=markdown&logoColor=white)
+![Java](https://img.shields.io/badge/Java-2_hrs_7_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![XML](https://img.shields.io/badge/XML-25_mins-555555?style=flat-square&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-23_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-12_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-9_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-3_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-3_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-1_min-000000?style=flat-square&logo=markdown&logoColor=white)
 
 **All-time — top languages:**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-84_hrs_56_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-60_hrs_11_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-35_hrs_11_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-19_hrs_22_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-8_hrs_3_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Text](https://img.shields.io/badge/Text-5_hrs_11_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-3_hrs_22_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-3_hrs_14_mins-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-84_hrs_56_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-61_hrs_37_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-35_hrs_11_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-19_hrs_22_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-8_hrs_3_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Text](https://img.shields.io/badge/Text-5_hrs_11_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-3_hrs_22_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![XML](https://img.shields.io/badge/XML-3_hrs_21_mins-555555?style=flat-square&logoColor=white)
 
 
 </div>

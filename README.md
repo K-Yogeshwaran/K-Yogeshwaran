@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-237_hrs_7_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_30_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-237_hrs_7_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-3_hrs_29_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-user--service-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Java](https://img.shields.io/badge/Java-2_hrs_32_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![XML](https://img.shields.io/badge/XML-22_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-14_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-9_mins-555555?style=flat-square&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-4_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-3_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-1_min-000000?style=flat-square&logo=markdown&logoColor=white)
+![Java](https://img.shields.io/badge/Java-2_hrs_32_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![XML](https://img.shields.io/badge/XML-22_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-14_mins-555555?style=flat-square&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-9_mins-555555?style=flat-square&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-4_mins-555555?style=flat-square&logoColor=white) ![SQL](https://img.shields.io/badge/SQL-3_mins-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 
 **All-time — top languages:**
 

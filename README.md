@@ -82,9 +82,9 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-238_hrs_2_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_51_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-238_hrs_2_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-55_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
-![Top Project](https://img.shields.io/badge/Top_Project-producer-d29922?style=for-the-badge&logo=github&logoColor=white)
+![Top Project](https://img.shields.io/badge/Top_Project-DevOps-d29922?style=for-the-badge&logo=github&logoColor=white)
 
 <br/>
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Java](https://img.shields.io/badge/Java-43_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-33_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-10_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-6_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-5_mins-555555?style=flat-square&logoColor=white) ![Java Properties](https://img.shields.io/badge/Java_Properties-3_mins-555555?style=flat-square&logoColor=white) ![Properties](https://img.shields.io/badge/Properties-3_mins-555555?style=flat-square&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-2_mins-E34F26?style=flat-square&logo=html5&logoColor=white)
+![YAML](https://img.shields.io/badge/YAML-33_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-6_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-5_mins-555555?style=flat-square&logoColor=white) ![Java](https://img.shields.io/badge/Java-3_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-2_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/Python-1_min-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **All-time — top languages:**
 

@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_46_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_16_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 ![Top Project](https://img.shields.io/badge/Top_Project-Terraform_Practice-d29922?style=for-the-badge&logo=github&logoColor=white)
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Terraform](https://img.shields.io/badge/Terraform-53_mins-555555?style=flat-square&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-18_mins-555555?style=flat-square&logoColor=white) ![YAML](https://img.shields.io/badge/YAML-16_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-6_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Java](https://img.shields.io/badge/Java-3_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-1_min-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-1_min-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+![Terraform](https://img.shields.io/badge/Terraform-53_mins-555555?style=flat-square&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-18_mins-555555?style=flat-square&logoColor=white) ![Java](https://img.shields.io/badge/Java-1_min-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-1_min-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 
 **All-time — top languages:**
 

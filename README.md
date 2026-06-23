@@ -82,9 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_14_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
-
-![Top Project](https://img.shields.io/badge/Top_Project-Terraform_Practice-d29922?style=for-the-badge&logo=github&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-0_secs-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 <br/>
 
@@ -94,7 +92,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Terraform](https://img.shields.io/badge/Terraform-53_mins-555555?style=flat-square&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-18_mins-555555?style=flat-square&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-1_min-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
+
 
 **All-time — top languages:**
 

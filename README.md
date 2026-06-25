@@ -82,7 +82,7 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-0_secs-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-239_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-0_hrs-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
 <br/>
 

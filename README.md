@@ -82,9 +82,9 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-252_hrs_51_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-4_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-254_hrs_7_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-1_hr_21_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
-![Top Project](https://img.shields.io/badge/Top_Project-low_light_enhancemen-d29922?style=for-the-badge&logo=github&logoColor=white)
+![Top Project](https://img.shields.io/badge/Top_Project-DVE-d29922?style=for-the-badge&logo=github&logoColor=white)
 
 <br/>
 
@@ -94,11 +94,11 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Python](https://img.shields.io/badge/Python-4_mins-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-1_hr_7_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSV](https://img.shields.io/badge/CSV-13_mins-555555?style=flat-square&logoColor=white)
 
 **All-time — top languages:**
 
-![JavaScript](https://img.shields.io/badge/JavaScript-85_hrs_54_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-62_hrs_23_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-42_hrs_18_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-19_hrs_23_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-8_hrs_9_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-6_hrs_52_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Text](https://img.shields.io/badge/Text-5_hrs_39_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-3_hrs_32_mins-555555?style=flat-square&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-85_hrs_54_mins-F7DF1E?style=flat-square&logo=javascript&logoColor=white) ![Java](https://img.shields.io/badge/Java-62_hrs_23_mins-ED8B00?style=flat-square&logo=openjdk&logoColor=white) ![Python](https://img.shields.io/badge/Python-43_hrs_21_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![CSS](https://img.shields.io/badge/CSS-19_hrs_23_mins-1572B6?style=flat-square&logo=css3&logoColor=white) ![HTML](https://img.shields.io/badge/HTML-8_hrs_9_mins-E34F26?style=flat-square&logo=html5&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-6_hrs_52_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![Text](https://img.shields.io/badge/Text-5_hrs_39_mins-555555?style=flat-square&logoColor=white) ![XML](https://img.shields.io/badge/XML-3_hrs_32_mins-555555?style=flat-square&logoColor=white)
 
 
 </div>

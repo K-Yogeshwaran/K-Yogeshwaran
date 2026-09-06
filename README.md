@@ -82,9 +82,9 @@ public class Yogeshwaran {
 
 <div align="center">
 
-![All-Time](https://img.shields.io/badge/All--Time_Coding-265_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-9_hrs_41_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
+![All-Time](https://img.shields.io/badge/All--Time_Coding-265_hrs_16_mins-58a6ff?style=for-the-badge&logo=wakatime&logoColor=white)&nbsp;&nbsp;![This Week](https://img.shields.io/badge/This_Week-8_hrs_46_mins-3fb950?style=for-the-badge&logo=wakatime&logoColor=white)
 
-![Top Project](https://img.shields.io/badge/Top_Project-aqua_track_robotics_-d29922?style=for-the-badge&logo=github&logoColor=white)
+![Top Project](https://img.shields.io/badge/Top_Project-Prototype-d29922?style=for-the-badge&logo=github&logoColor=white)
 
 <br/>
 
@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![C++](https://img.shields.io/badge/C++-4_hrs_35_mins-555555?style=flat-square&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-2_hrs_36_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-1_hr_22_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-21_mins-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![CSV](https://img.shields.io/badge/CSV-19_mins-555555?style=flat-square&logoColor=white) ![INI](https://img.shields.io/badge/INI-13_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-11_mins-000000?style=flat-square&logo=markdown&logoColor=white)
+![C++](https://img.shields.io/badge/C++-4_hrs_38_mins-555555?style=flat-square&logoColor=white) ![JSON](https://img.shields.io/badge/JSON-2_hrs_31_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-45_mins-3776AB?style=flat-square&logo=python&logoColor=white) ![Other](https://img.shields.io/badge/Other-23_mins-555555?style=flat-square&logoColor=white) ![Bash](https://img.shields.io/badge/Bash-21_mins-4EAA25?style=flat-square&logo=gnubash&logoColor=white) ![INI](https://img.shields.io/badge/INI-13_mins-555555?style=flat-square&logoColor=white) ![Markdown](https://img.shields.io/badge/Markdown-11_mins-000000?style=flat-square&logo=markdown&logoColor=white) ![CSV](https://img.shields.io/badge/CSV-4_mins-555555?style=flat-square&logoColor=white)
 
 **All-time — top languages:**
 

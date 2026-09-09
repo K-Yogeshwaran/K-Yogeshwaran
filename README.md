@@ -94,7 +94,7 @@ public class Yogeshwaran {
 
 **Last 7 days — active languages only:**
 
-![Other](https://img.shields.io/badge/Other-23_mins-555555?style=flat-square&logoColor=white) ![Python](https://img.shields.io/badge/Python-3_mins-3776AB?style=flat-square&logo=python&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3_mins-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **All-time — top languages:**
 
